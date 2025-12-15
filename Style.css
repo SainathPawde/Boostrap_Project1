@@ -14,7 +14,7 @@
             object-fit: cover; */
         /* text-align: center/cover no-repeat;  */
 
-        .bg-video {
+         /* .bg-video {
             position: absolute;
             top: 50%;
             left: 50%;
@@ -42,7 +42,34 @@
             z-index: 1;
             padding-top: 40vh;
 
+        }  */
+
+
+           #header {
+            background-image: url(img/little-italy-offer.jpg);
+            min-height: 100vh;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            /* background-attachment: fixed; */
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
         }
+
+        .hero-content {
+            position: relative;
+            z-index: 1;
+            padding-top: 40vh;
+
+            position: relative;
+            text-align: center;
+            color: #f0eded;
+
+        }
+
 
         #herosecond {
             margin-top: 15vh;
