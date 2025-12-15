@@ -1,0 +1,547 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+       <link href="/img//favicon.ico" rel="shortcut icon" type="image/x-icon" />
+	<link href="img/favicon.ico" rel="icon" type="image/x-icon" />
+    <title>Little Italy</title>
+
+    <style>
+        #header {
+            background-image: url(img/buffet-heated-trays-in-the-line-warming-trays-for-buffet-line_t20_no1KwP.jpg);
+            min-height: 100vh;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            opacity: 10;
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 1;
+            padding-top: 40vh;
+
+            position: relative;
+            text-align: center;
+            color: #f0eded;
+
+        }
+
+        .about-event {
+            background: #ffffff;
+        }
+
+        /* Title */
+        .main-title {
+            font-size: 40px;
+            font-weight: 700;
+            color: #1f3d2b;
+        }
+
+        .main-title span {
+            color: #8b8a3a;
+        }
+
+        .info-text p {
+            font-size: 17px;
+            line-height: 1.9;
+            color: #2e3d2e;
+        }
+
+        .image-wrapper {
+            border: 4px solid #8b8a3a;
+            padding: 10px;
+        }
+
+        .event-box {
+            border: 4px solid #8b8a3a;
+            padding: 30px 20px;
+            height: 100%;
+        }
+
+
+        .box-icon {
+            width: 60px;
+        }
+
+
+        .event-box h5 {
+            font-size: 20px;
+            margin-bottom: 6px;
+        }
+
+        .event-box p {
+            font-size: 16px;
+            margin: 0;
+        }
+
+        .carousel-img {
+            height: 500px;
+            object-fit: cover;
+            border-radius: 6px;
+        }
+
+
+
+        #fourth_section {
+            height: 100vh;
+            background-image: url(img/Pizza1.png);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+
+            /* padding: 40px 0; */
+        }
+
+        #fourth_section h1 {
+            font-size: 3.5rem;
+            font-weight: 700;
+            color: #2e482f;
+        }
+
+        #fourth_section p {
+            font-size: 2rem;
+            color: #3b4b2c;
+
+        }
+
+
+
+        .footer-section {
+            background: #111;
+        }
+
+        .reserve-btn {
+            background: #98a246;
+            color: #fff;
+            border-radius: 4px;
+            letter-spacing: 1px;
+        }
+
+        .reserve-btn:hover {
+            background: #7e8a32;
+            color: #fff;
+        }
+
+        .social-icon {
+            width: 38px;
+            height: 38px;
+            cursor: pointer;
+        }
+
+        .social-icon:hover {
+            opacity: 0.8;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <section class="container-fluid m-0 p-0" id="mainwrapper">
+        <section class="container-fluid  video-section position-relative" id="header">
+
+            <section class="container">
+                <div class="row">
+                    <div class="col-12">
+
+
+                        <nav class="navbar navbar-expand-lg navbar-dark bg-transparent fixed-top   py-5"
+                            style="font-size: 19px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
+                            <div class="container-fluid ">
+
+                                <div class="collapse navbar-collapse w-100 justify-content-between"
+                                    id="navbarSupportedContent">
+                                    <ul class="navbar-nav mb-auto mb-2 mb-lg-0 w-100 justify-content-between ">
+                                        <li class="nav-item">
+                                            <a class="nav-link " aria-current="page" href="index.html">HOME</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link " href="About.html">ABOUT US</a>
+                                        </li>
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
+                                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                BRANDS
+                                            </a>
+                                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                                <li><a class="dropdown-item" href="#">Little itly</a></li>
+                                                <li><a class="dropdown-item" href="#">chai</a></li>
+                                                <li><a class="dropdown-item" href="#">Samosa</a></li>
+                                                <li><a class="dropdown-item" href="#">vadapav</a></li>
+                                                <li><a class="dropdown-item" href="#">Pohe</a></li>
+
+
+
+                                                <li>
+                                                    <hr class="dropdown-divider">
+                                                </li>
+                                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link " href="Franchazing.html">FRANCHISING</a>
+                                        </li>
+
+
+                                        <!-- <li class="nav-item" >
+                                            <a class="nav-link" href="#"><img src="/img/LittleItalyRestaurante-logo.png" alt=""></a>
+                                            
+                                        </li> -->
+                                        <a class="nav-link  d-lg-block d-none" href="#">
+                                            <img src="/img/LittleItalyRestaurante-logo.png" width="130" alt="">
+                                        </a>
+                                        <li class="nav-item">
+                                            <a class="nav-link active" href="Events.html">EVENTS</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">CAREER</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">LOYALTY</a>
+                                        </li>
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
+                                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                CONTACT
+                                            </a>
+                                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                                <li><a class="dropdown-item" href="#">Find a restaurant</a></li>
+                                                <li><a class="dropdown-item" href="#">Contact US</a></li>
+
+
+
+                                                <li>
+                                                    <hr class="dropdown-divider">
+                                                </li>
+                                                <li><a class="dropdown-item" href="#">Call</a></li>
+                                            </ul>
+                                        </li>
+
+                                    </ul>
+
+                                </div>
+                            </div>
+                        </nav>
+
+
+
+
+                    </div>
+                    <section class="hero content d-flex align-items-center " style="height: 750px;" id="navcontent">
+                        <div class="hero-content container text-center ">
+
+                            <h1 style="font-size: 75px;">Little Italy's Curated Catering Experience</h1>
+
+                        </div>
+                    </section>
+                </div>
+
+
+            </section>
+        </section>
+
+
+        <section class="container-fluid about-event py-5">
+            <section class="container">
+                <div class="row align-items-center">
+
+
+                    <div class="col-12 col-lg-6">
+
+                        <div class="d-flex align-items-center mb-3">
+                            <div style="height:6px;width:60px;background:#908c3d;"></div>
+                            <h6 class="mx-3 fw-bold mb-0" style="color:#6b6b2e; font-size: 25px;">
+                                About US
+                            </h6>
+                            <div style="height:6px;width:160px;background:#908c3d;"></div>
+                        </div>
+
+                        <h2 class="main-title mb-4">
+                            Special <span>Occasion</span> or Event coming soon?
+                        </h2>
+
+                        <div class="info-text mb-4">
+                            <p>
+                                Little Italy has got you covered! Your special event deserves
+                                the best cuisine with curated dishes personalized to you.
+                                Catering events in India & Dubai is special for us.
+                            </p>
+
+                            <p>
+                                To make your event extra special, we offer a variety of cuisines
+                                & dishes that can be tailored to what you desire.
+                            </p>
+                        </div>
+
+
+                        <div class="row mt-4">
+
+
+                            <div class="col-12 col-md-6 mb-3">
+                                <div class="event-box text-center">
+                                    <img src="img/menu.svg" class="box-icon mb-3" alt="">
+                                    <h5>Checkout Our Menu</h5>
+                                    <p>View</p>
+                                </div>
+                            </div>
+
+
+                            <div class="col-12 col-md-6 mb-3">
+                                <div class="event-box text-center">
+                                    <img src="img/phone-call.svg" class="box-icon mb-3" alt="">
+                                    <h5>Call us all your queries</h5>
+                                    <p>+91 7507895000</p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-12 col-lg-6 text-center mt-4 mt-lg-0">
+                        <div class="image-wrapper">
+                            <img src="img/events-about.jpg" class="img-fluid" alt="">
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+        </section>
+
+
+        <section class="container-fluid py-5">
+            <!-- <section class="container" > -->
+            <div class="row py-2" style="border: 4px solid rgb(234, 188, 7);">
+
+                <div class="col-12 ">
+                    <div id="imageCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+
+                        <div class="carousel-inner">
+
+                            <div class="carousel-item active">
+                                <div class="row g-3">
+                                    <div class="col-12 col-md-4">
+                                        <img src="img/ban1.jpeg" class="d-block w-100 carousel-img" alt="">
+                                    </div>
+                                    <div class="col-12 col-md-4">
+                                        <img src="img/ban2.jpeg" class="d-block w-100 carousel-img" alt="">
+                                    </div>
+                                    <div class="col-12 col-md-4">
+                                        <img src="img/ban3.jpeg" class="d-block w-100 carousel-img" alt="">
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="carousel-item">
+                                <div class="row g-3">
+                                    <div class="col-12 col-md-4">
+                                        <img src="img/che1.jpg" class="d-block w-100 carousel-img" alt="">
+                                    </div>
+                                    <div class="col-12 col-md-4">
+                                        <img src="img/che2.jpeg" class="d-block w-100 carousel-img" alt="">
+                                    </div>
+                                    <div class="col-12 col-md-4">
+                                        <img src="img/che3.jpg" class="d-block w-100 carousel-img" alt="">
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="carousel-item">
+                                <div class="row g-3">
+                                    <div class="col-12 col-md-4">
+                                        <img src="img/chi1.jpg" class="d-block w-100 carousel-img" alt="">
+                                    </div>
+                                    <div class="col-12 col-md-4">
+                                        <img src="img/chi2.jpg" class="d-block w-100 carousel-img" alt="">
+                                    </div>
+                                    <div class="col-12 col-md-4">
+                                        <img src="img/na2.jpeg" class="d-block w-100 carousel-img" alt="">
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="carousel-item">
+                                <div class="row g-3">
+                                    <div class="col-12 col-md-4">
+                                        <img src="img/gk1.jpeg" class="d-block w-100 carousel-img" alt="">
+                                    </div>
+                                    <div class="col-12 col-md-4">
+                                        <img src="img/gk2.jpeg" class="d-block w-100 carousel-img" alt="">
+                                    </div>
+                                    <div class="col-12 col-md-4">
+                                        <img src="img/gk4.jpeg" class="d-block w-100 carousel-img" alt="">
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="carousel-item">
+                                <div class="row g-3">
+                                    <div class="col-12 col-md-4">
+                                        <img src="img/gk5.jpeg" class="d-block w-100 carousel-img" alt="">
+                                    </div>
+                                    <div class="col-12 col-md-4">
+                                        <img src="img/IMG_3471.jpg" class="d-block w-100 carousel-img" alt="">
+                                    </div>
+                                    <div class="col-12 col-md-4">
+                                        <img src="img/IMG_3479.jpg" class="d-block w-100 carousel-img" alt="">
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                        <button class="carousel-control-prev" type="button" data-bs-target="#imageCarousel"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </button>
+
+                        <button class="carousel-control-next" type="button" data-bs-target="#imageCarousel"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </button>
+
+                    </div>
+                </div>
+
+            </div>
+            <!-- </section> -->
+        </section>
+
+
+
+
+        <section class="container-fluid d-flex align-items-center text-center" id="fourth_section">
+            <section class="container">
+                <div>
+                    <h1>
+                        Craving Authentic Italian Food?
+                    </h1> <br><br>
+                    <p>Order from a wide range of Pizzas, Pastas & Appetizers!</p> <br>
+                    <a href="#" class="btn btn-success btn-lg mt-3"
+                        style="background-color: #908c3d; border-radius: 0%; ">
+                        ORDER MEAL NOW
+                    </a>
+
+                </div>
+            </section>
+
+        </section>
+
+
+
+
+
+
+        <footer class="footer-section py-5">
+            <div class="container">
+                <div class="row">
+
+
+                    <div class="col-md-4 mb-4 text-white">
+                        <img src="img/LittleItalyRestaurante-logo.png" alt="Little Italy Logo" class="img-fluid mb-3"
+                            style="max-width: 250px;">
+
+                        <p class="mt-3">
+                            Over 3 Decades, Little Italy has pioneered Italian cuisine in India.
+                            With 50 outlets in 4 countries, we are India’s largest home grown
+                            Italian brand.
+                        </p>
+                    </div>
+
+
+                    <div class="col-md-4 mb-4 text-white d-flex justify-content-between">
+
+                        <ul class="list-unstyled">
+                            <li class="mb-2">Little Italy</li>
+                            <li class="mb-2">Piazza</li>
+                            <li class="mb-2">La Pizzeria</li>
+                            <li class="mb-2">Akss</li>
+                            <li class="mb-2">Tutto Bene</li>
+                            <li class="mb-2">Little Indian</li>
+                            <li class="mb-2">Events & Catering</li>
+                            <li class="mb-2">Acasa Little Italy</li>
+                        </ul>
+
+                        <ul class="list-unstyled ms-4">
+                            <li class="mb-2">Careers</li>
+                            <li class="mb-2">Franchising</li>
+                            <li class="mb-2">Green Card Club</li>
+
+                            <hr class="bg-light">
+
+                            <li class="mb-2">View our locations</li>
+                            <li class="mb-2">Write to us at -</li>
+                            <li class="text-warning">marketing@littleitaly.in</li>
+                        </ul>
+
+                    </div>
+
+
+                    <div class="col-md-4 mb-4 text-white">
+                        <h3 class="fw-bold text-warning">Opening Hours</h3>
+
+                        <div class="d-flex justify-content-between mt-3">
+                            <span>Mon – Sun</span>
+                            <span>12:00PM – 12:00AM</span>
+                        </div>
+
+                        <button class="btn reserve-btn mt-3 px-4 py-2 fw-bold">
+                            RESERVE TABLE
+                        </button>
+
+
+                        <div class="mt-4 d-flex align-items-center">
+                            <img src="img/facebook.svg" alt="Facebook" class="social-icon me-3">
+                            <img src="img/instagram.svg" alt="Instagram" class="social-icon me-3">
+                            <img src="img/twitter.svg" alt="Twitter" class="social-icon">
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="text-center text-white mt-4 pt-3 border-top border-secondary">
+                    © Little Italy. All rights reserved. Made by <span class="text-warning">HokoHokoMedia</span>
+                </div>
+            </div>
+        </footer>
+
+
+
+
+
+
+
+
+    </section>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>

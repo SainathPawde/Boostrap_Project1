@@ -1,0 +1,104 @@
+ .bg-video {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            min-width: 100%;
+            min-height: 100%;
+            width: 100%;
+            height: auto;
+            transform: translate(-50%, -50%);
+            z-index: 0;
+            object-fit: cover;
+
+
+
+        }
+
+        .video-section {
+            height: 100vh;
+            overflow: hidden;
+            width: 100%;
+        }
+
+        .content {
+            position: relative;
+            z-index: 1;
+            padding-top: 40vh;
+
+        }
+
+
+        #herosecond {
+            padding-top: 80px;
+            padding-bottom: 80px;
+        }
+
+        #herosecond h6 {
+            font-size: 16px;
+            letter-spacing: 1px;
+        }
+
+        #herosecond h2 {
+            font-size: 38px;
+            line-height: 1.3;
+        }
+
+        #herosecond p {
+            font-size: 17px;
+            line-height: 1.9;
+        }
+
+        #herosecond .ms-3 {
+            font-size: 17px;
+        }
+
+
+        #fourth_section {
+            height: 100vh;
+            background-image: url(img/Pizza1.png);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+
+            /* padding: 40px 0; */
+        }
+
+        #fourth_section h1 {
+            font-size: 3.5rem;
+            font-weight: 700;
+            color: #2e482f;
+        }
+
+        #fourth_section p {
+            font-size: 2rem;
+            color: #3b4b2c;
+
+        }
+
+
+        .footer-section {
+            background: #111;
+            /* dark black */
+        }
+
+        .reserve-btn {
+            background: #98a246;
+            color: #fff;
+            border-radius: 4px;
+            letter-spacing: 1px;
+        }
+
+        .reserve-btn:hover {
+            background: #7e8a32;
+            color: #fff;
+        }
+
+        .social-icon {
+            width: 38px;
+            height: 38px;
+            cursor: pointer;
+        }
+
+        .social-icon:hover {
+            opacity: 0.8;
+        }
